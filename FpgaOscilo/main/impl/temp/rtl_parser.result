@@ -1,0 +1,20 @@
+[
+ {
+  "InstFile" : "E:/Tang-Nano-examples-masterch551/FpgaOscilo/main/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "Oscilator",
+  "ModuleFile" : "E:/Tang-Nano-examples-masterch551/FpgaOscilo/main/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Oscilator",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/Tang-Nano-examples-masterch551/FpgaOscilo/main/src/main.v",
+    "InstLine" : 5,
+    "InstName" : "myoscilator",
+    "ModuleFile" : "E:/Tang-Nano-examples-masterch551/FpgaOscilo/main/src/gowin_osc/gowin_osc.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_OSC"
+   }
+  ]
+ }
+]

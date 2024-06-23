@@ -1,0 +1,52 @@
+//
+//Written by GowinSynthesis
+//Tool Version "V1.9.9.03 (64-bit)"
+//Tue Jun 23 14:03:18 2020
+
+//Source file index table:
+//file0 "\E:/Tang-Nano-examples-masterch551/FpgaOscilo/main/src/main.v"
+//file1 "\E:/Tang-Nano-examples-masterch551/FpgaOscilo/main/src/gowin_osc/gowin_osc.v"
+`timescale 100 ps/100 ps
+module Gowin_OSC (
+  oscilator_d
+)
+;
+output oscilator_d;
+wire VCC;
+wire GND;
+  OSCH osc_inst (
+    .OSCOUT(oscilator_d) 
+);
+defparam osc_inst.FREQ_DIV=100;
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+endmodule /* Gowin_OSC */
+module Oscilator (
+  oscilator
+)
+;
+output oscilator;
+wire oscilator_d;
+wire VCC;
+wire GND;
+  OBUF oscilator_obuf (
+    .O(oscilator),
+    .I(oscilator_d) 
+);
+  Gowin_OSC myoscilator (
+    .oscilator_d(oscilator_d)
+);
+  VCC VCC_cZ (
+    .V(VCC)
+);
+  GND GND_cZ (
+    .G(GND)
+);
+  GSR GSR (
+    .GSRI(VCC) 
+);
+endmodule /* Oscilator */

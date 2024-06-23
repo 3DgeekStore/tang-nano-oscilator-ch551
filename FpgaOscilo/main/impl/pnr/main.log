@@ -1,0 +1,29 @@
+Reading netlist file: "E:\Tang-Nano-examples-masterch551\FpgaOscilo\main\impl\gwsynthesis\main.vg"
+Parsing netlist file "E:\Tang-Nano-examples-masterch551\FpgaOscilo\main\impl\gwsynthesis\main.vg" completed
+Processing netlist completed
+Reading constraint file: "E:\Tang-Nano-examples-masterch551\FpgaOscilo\main\src\main.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "E:\Tang-Nano-examples-masterch551\FpgaOscilo\main\impl\pnr\main.power.html" completed
+Generate file "E:\Tang-Nano-examples-masterch551\FpgaOscilo\main\impl\pnr\main.pin.html" completed
+Generate file "E:\Tang-Nano-examples-masterch551\FpgaOscilo\main\impl\pnr\main.rpt.html" completed
+Generate file "E:\Tang-Nano-examples-masterch551\FpgaOscilo\main\impl\pnr\main.rpt.txt" completed
+Generate file "E:\Tang-Nano-examples-masterch551\FpgaOscilo\main\impl\pnr\main.tr.html" completed
+Tue Jun 23 14:03:22 2020
+

@@ -1,0 +1,7 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'E:\Tang-Nano-examples-masterch551\FpgaOscilo\src\Main.v'
+ERROR (EX3862) : Expecting endmodule("E:\Tang-Nano-examples-masterch551\FpgaOscilo\src\Main.v":7)
+Verilog file 'E:\Tang-Nano-examples-masterch551\FpgaOscilo\src\Main.v' ignored due to errors
+Analyzing Verilog file 'E:\Tang-Nano-examples-masterch551\FpgaOscilo\src\gowin_osc\gowin_osc.v'
+GowinSynthesis finish
